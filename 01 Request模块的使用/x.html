@@ -1,0 +1,867 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1"><title>
+
+</title>
+    <link href="skin/css/base.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="skin/css/menu.css" type="text/css"/>
+    <script language='javascript' type="text/javascript">        var curopenItem = '1';</script>
+    <script language="javascript" type="text/javascript" src="skin/js/menu.js"></script>
+    <script language='javascript' type="text/javascript">
+        var preFrameW = '206,*';
+        var FrameHide = 0;
+        var curStyle = 1;
+        var totalItem = 9;
+
+        function func() {
+
+
+            for (i = 1; i <= totalItem; i++) {
+                if (document.getElementById('item' + i))
+                    document.getElementById('item' + i).className = 'item';
+                alert(document.getElementById('item1').InnerHTML);
+                if (document.getElementById('a' + i). == window.document.title) {
+                    document.getElementById('item' + i).className = 'itemsel';
+                }
+            }
+        }
+
+
+        function mv(selobj, moveout, itemnum) {
+            if (itemnum == curStyle) return false;
+            if (moveout == 'm') selobj.className = 'itemsel';
+            if (moveout == 'o') selobj.className = 'item';
+            return true;
+        }
+
+        function changeSel(itemnum) {
+            curStyle = itemnum;
+            for (i = 1; i <= totalItem; i++) {
+                if (document.getElementById('item' + i))
+                    document.getElementById('item' + i).className = 'item';
+                if (document.getElementById('a' + i).InnerText == window.document.title) {
+                    document.getElementById('item' + i).className = 'itemsel';
+                }
+            }
+            //document.getElementById('item' + itemnum).className = 'itemsel';
+        }
+
+    </script>
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        #tpa {
+            color: #009933;
+            margin: 0px;
+            padding: 0px;
+            float: right;
+            padding-right: 10px;
+        }
+
+        #tpa dd {
+            margin: 0px;
+            padding: 0px;
+            float: left;
+            margin-right: 2px;
+        }
+
+        #tpa dd.ditem {
+            margin-right: 8px;
+        }
+
+        #tpa dd.img {
+            padding-top: 6px;
+        }
+
+        div.item {
+            text-align: center;
+            background: url(skin/images/frame/topitembg.gif) 0px 3px no-repeat;
+            width: 82px;
+            height: 30px;
+            line-height: 31px;
+        }
+
+        .itemsel {
+            width: 80px;
+            text-align: center;
+            background: #226411;
+            border-left: 1px solid #c5f097;
+            border-right: 1px solid #c5f097;
+            border-top: 1px solid #c5f097;
+            height: 27px;
+            line-height: 29px;
+        }
+
+        * html .itemsel {
+            height: 26px;
+            line-height: 26px;
+        }
+
+        a:link, a:visited {
+            text-decoration: underline;
+        }
+
+        .item a:link, .item a:visited {
+            font-size: 12px;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .itemsel a:hover {
+            color: #ffffff;
+            font-weight: bold;
+            border-bottom: 2px solid #E9FC65;
+        }
+
+        .itemsel a:link, .itemsel a:visited {
+            font-size: 12px;
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .itemsel a:hover {
+            color: #ffffff;
+            border-bottom: 2px solid #E9FC65;
+        }
+
+        .rmain {
+            padding-left: 10px;
+            /* background:url(skin/images/frame/toprightbg.gif) no-repeat; */
+        }
+
+        .firstTitle {
+            font-family: 黑体;
+            font-size: 16px;
+            font-weight: blod;
+        }
+
+        .secTitle {
+            font-family: 黑体;
+            font-size: 10pt;
+
+        }
+
+        .dwTitle {
+            font-family: 黑体;
+            font-size: 10pt;
+            line-height: 18pt;
+
+        }
+
+        .tableTitle {
+            font-family: 黑体;
+            font-size: 11pt;
+        }
+
+        .tableTitle td {
+            font-family: 黑体;
+            font-size: 11pt;
+        }
+
+        .nullResult {
+            font-family: 黑体;
+            font-size: 11pt;
+        }
+
+        .qButton {
+            font-size: 14px;
+            font-family: 黑体;
+            font-weight: blod;
+        }
+
+        .queryBr {
+            font-size: 2pt;
+        }
+
+        .mainTxt td {
+            font-size: 14px;
+            text-align: center;
+
+        }
+
+        .zwGreen {
+            font-size: 14px;
+            color: Green;
+        }
+
+        .zwRed {
+            font-size: 14px;
+            color: Red;
+        }
+
+        .yq1st {
+            font-size: 14px;
+            color: #ff0000;
+        }
+
+        .yq2nd {
+            font-size: 14px;
+            color: #FF00FF;
+        }
+
+        .menuTitle {
+            font-family: 黑体;
+            font-size: 13px;
+        }
+
+        .nagTitle {
+            font-size: 14px;
+            font-family: 黑体;
+            font-weight: bold;
+            line-height: 28px;
+        }
+    </style>
+</head>
+<body>
+
+<form method="post" action="./hwsq.aspx" id="form1">
+    <div class="aspNetHidden">
+        <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value=""/>
+        <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value=""/>
+        <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE"
+               value="/wEPDwULLTEwMDI5NzA1NzkPZBYCZg9kFgICAw9kFgICBQ9kFgJmD2QWAgIBD2QWAgIBDxYCHglpbm5lcmh0bWwFjUs8dGFibGUgd2lkdGg9Ijk4JSIgYm9yZGVyPSIwIiBjZWxscGFkZGluZz0iMCIgY2VsbHNwYWNpbmc9IjEiIGJnY29sb3I9IiNEMUREQUEiIGFsaWduPSJjZW50ZXIiPjx0cj48dGQgaGVpZ2h0PSI0MCIgYmFja2dyb3VuZD0ic2tpbi9pbWFnZXMvbmV3bGluZWJnMy5naWYiPjx0YWJsZSB3aWR0aD0iOTglIiBib3JkZXI9IjAiIGNlbGxzcGFjaW5nPSIwIiBjZWxscGFkZGluZz0iMCI+PHRyPjx0ZCBhbGlnbj0iY2VudGVyIj48ZGl2IGNsYXNzPSdmaXJzdFRpdGxlJz7msLTmg4Xml6XmiqU8L2Rpdj48ZGl2IGNsYXNzPSdzZWNUaXRsZSc+MjAwMi0wMS0wMTwvZGl2PjwvdGQ+PC90cj48L3RhYmxlPjwvdGQ+PC90cj48L3RhYmxlPjx0YWJsZSB3aWR0aD0iOTglIiBib3JkZXI9IjAiIGNlbGxwYWRkaW5nPSIyIiBjZWxsc3BhY2luZz0iMSIgYmdjb2xvcj0iI0QxRERBQSIgYWxpZ249ImNlbnRlciIgc3R5bGU9Im1hcmdpbi10b3A6OHB4IiBjbGFzcz0ibWFpblR4dCI+PHRyPjx0ZCB3aWR0aD0iNTAlIj48dGFibGUgd2lkdGg9IjEwMCUiIGJvcmRlcj0iMCIgY2VsbHBhZGRpbmc9IjIiIGNlbGxzcGFjaW5nPSIxIiBiZ2NvbG9yPSIjRDFEREFBIiBhbGlnbj0iY2VudGVyIiBzdHlsZT0ibWFyZ2luLXRvcDo4cHgiIGNsYXNzPSJtYWluVHh0Ij48VFIgYWxpZ249J2NlbnRlcicgYmdjb2xvcj0nI0U3RTdFNycgaGVpZ2h0PScyMicgY2xhc3M9J3RhYmxlVGl0bGUnID48VEQgd2lkdGg9IjE1JSIgc3R5bGU9ImZvbnQtc2l6ZToxMXB0OyI+5rKz5ZCNPC9URD48VEQgd2lkdGg9IjI1JSIgc3R5bGU9ImZvbnQtc2l6ZToxMXB0OyI+56uZ5ZCNPC9URD48VEQgd2lkdGg9IjIwJSIgc3R5bGU9ImZvbnQtc2l6ZToxMXB0OyI+5rC05L2NPC9URD48VEQgd2lkdGg9IjIwJSIgc3R5bGU9ImZvbnQtc2l6ZToxMXB0OyI+5rWB6YePPC9URD48VEQgd2lkdGg9IjIwJSIgc3R5bGU9ImZvbnQtc2l6ZToxMXB0OyI+5ZCr5rKZ6YePPC9URD48L1RSPjx0ciBhbGlnbj0iY2VudGVyIiBiZ2NvbG9yPSIjRkZGRkZGIj48dGQ+6buE5rKzICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPjx0ZD7llJDkuYPkuqUgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPjx0ZD4xMy42NTwvdGQ+PHRkPjExNjwvdGQ+PHRkPi08L3RkPjwvdHI+PHRyIGFsaWduPSJjZW50ZXIiIGJnY29sb3I9IiNGRkZGRkYiPjx0ZD7pu4TmsrMgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+PHRkPum+mee+iuWzoeWFpeW6kzwvdGQ+PHRkPi08L3RkPjx0ZD4tPC90ZD48dGQ+LTwvdGQ+PC90cj48dHIgYWxpZ249ImNlbnRlciIgYmdjb2xvcj0iI0ZGRkZGRiI+PHRkPum7hOaysyAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+6b6Z576K5bOh6JOE5rC06YePPC90ZD48dGQ+LTwvdGQ+PHRkPi08L3RkPjx0ZD4tPC90ZD48L3RyPjx0ciBhbGlnbj0iY2VudGVyIiBiZ2NvbG9yPSIjRkZGRkZGIj48dGQ+6buE5rKzICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPjx0ZD7pvpnnvorls6Hlh7rlupM8L3RkPjx0ZD4tPC90ZD48dGQ+LTwvdGQ+PHRkPi08L3RkPjwvdHI+PHRyIGFsaWduPSJjZW50ZXIiIGJnY29sb3I9IiNGRkZGRkYiPjx0ZD7pu4TmsrMgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+PHRkPuWImOWutuWzoeWFpeW6kzwvdGQ+PHRkPi08L3RkPjx0ZD4tPC90ZD48dGQ+LTwvdGQ+PC90cj48dHIgYWxpZ249ImNlbnRlciIgYmdjb2xvcj0iI0ZGRkZGRiI+PHRkPum7hOaysyAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+5YiY5a625bOh6JOE5rC06YePPC90ZD48dGQ+LTwvdGQ+PHRkPi08L3RkPjx0ZD4tPC90ZD48L3RyPjx0ciBhbGlnbj0iY2VudGVyIiBiZ2NvbG9yPSIjRkZGRkZGIj48dGQ+6buE5rKzICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPjx0ZD7liJjlrrbls6Hlh7rlupM8L3RkPjx0ZD4tPC90ZD48dGQ+LTwvdGQ+PHRkPi08L3RkPjwvdHI+PHRyIGFsaWduPSJjZW50ZXIiIGJnY29sb3I9IiNGRkZGRkYiPjx0ZD7pu4TmsrMgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+PHRkPuWFsOW3niAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+MTEuNDwvdGQ+PHRkPjMzMzwvdGQ+PHRkPi08L3RkPjwvdHI+PHRyIGFsaWduPSJjZW50ZXIiIGJnY29sb3I9IiNGRkZGRkYiPjx0ZD7pu4TmsrMgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+PHRkPuS4i+ays+ayvyAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+PHRkPjMwLjM5PC90ZD48dGQ+NTI2PC90ZD48dGQ+LTwvdGQ+PC90cj48dHIgYWxpZ249ImNlbnRlciIgYmdjb2xvcj0iI0ZGRkZGRiI+PHRkPum7hOaysyAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+55+z5Zi05bGxICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+ODcuNDY8L3RkPjx0ZD40MTA8L3RkPjx0ZD4tPC90ZD48L3RyPjx0ciBhbGlnbj0iY2VudGVyIiBiZ2NvbG9yPSIjRkZGRkZGIj48dGQ+6buE5rKzICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPjx0ZD7lt7Tlvabpq5jli5IgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+NTIuNzI8L3RkPjx0ZD4zMTA8L3RkPjx0ZD4tPC90ZD48L3RyPjx0ciBhbGlnbj0iY2VudGVyIiBiZ2NvbG9yPSIjRkZGRkZGIj48dGQ+6buE5rKzICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPjx0ZD7kuInmuZbmsrPlj6MgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+MTkuNjwvdGQ+PHRkPjI2MDwvdGQ+PHRkPi08L3RkPjwvdHI+PHRyIGFsaWduPSJjZW50ZXIiIGJnY29sb3I9IiNGRkZGRkYiPjx0ZD7pu4TmsrMgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+PHRkPuWMheWktCAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+LTwvdGQ+PHRkPi08L3RkPjx0ZD4tPC90ZD48L3RyPjx0ciBhbGlnbj0iY2VudGVyIiBiZ2NvbG9yPSIjRkZGRkZGIj48dGQ+6buE5rKzICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPjx0ZD7lpLTpgZPmi5AgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPjx0ZD44Ni43NzwvdGQ+PHRkPjE4NTwvdGQ+PHRkPi08L3RkPjwvdHI+PHRyIGFsaWduPSJjZW50ZXIiIGJnY29sb3I9IiNGRkZGRkYiPjx0ZD7pu4TmsrMgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+PHRkPuS4h+WutuWvqOiThOawtOmHjzwvdGQ+PHRkPi08L3RkPjx0ZD4tPC90ZD48dGQ+LTwvdGQ+PC90cj48dHIgYWxpZ249ImNlbnRlciIgYmdjb2xvcj0iI0ZGRkZGRiI+PHRkPum7hOaysyAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+5LiH5a625a+o5LiK5Ye65bqTPC90ZD48dGQ+LTwvdGQ+PHRkPjE4PC90ZD48dGQ+LTwvdGQ+PC90cj48dHIgYWxpZ249ImNlbnRlciIgYmdjb2xvcj0iI0ZGRkZGRiI+PHRkPum7hOaysyAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+5LiH5a625a+o5LiLICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+PHRkPjk0LjQ4PC90ZD48dGQ+MTg8L3RkPjx0ZD4tPC90ZD48L3RyPjx0ciBhbGlnbj0iY2VudGVyIiBiZ2NvbG9yPSIjRkZGRkZGIj48dGQ+6buE5rKzICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPjx0ZD7lupzosLcgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+PHRkPjguNTU8L3RkPjx0ZD45ODwvdGQ+PHRkPi08L3RkPjwvdHI+PHRyIGFsaWduPSJjZW50ZXIiIGJnY29sb3I9IiNGRkZGRkYiPjx0ZD7pu4TmsrMgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+PHRkPuWQtOWgoSAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+MzcuMjg8L3RkPjx0ZD4xMzA8L3RkPjx0ZD4tPC90ZD48L3RyPjx0ciBhbGlnbj0iY2VudGVyIiBiZ2NvbG9yPSIjRkZGRkZGIj48dGQ+6buE5rKzICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPjx0ZD7pvpnpl6ggICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+PHRkPjgyLjgyPC90ZD48dGQ+MjEwPC90ZD48dGQ+LTwvdGQ+PC90cj48dHIgYWxpZ249ImNlbnRlciIgYmdjb2xvcj0iI0ZGRkZGRiI+PHRkPuaxvuaysyAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+5rKz5rSlICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPjx0ZD43MS41NzwvdGQ+PHRkPjUuNDU8L3RkPjx0ZD4tPC90ZD48L3RyPjx0ciBhbGlnbj0iY2VudGVyIiBiZ2NvbG9yPSIjRkZGRkZGIj48dGQ+5YyX5rSb5rKzICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+54q25aS0ICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPjx0ZD42MS4zNTwvdGQ+PHRkPjIuMTA8L3RkPjx0ZD4tPC90ZD48L3RyPjx0ciBhbGlnbj0iY2VudGVyIiBiZ2NvbG9yPSIjRkZGRkZGIj48dGQ+5rO+5rKzICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPjx0ZD7lvKDlrrblsbEgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPjx0ZD40MjAuMTwvdGQ+PHRkPjEuNjQ8L3RkPjx0ZD4tPC90ZD48L3RyPjx0ciBhbGlnbj0iY2VudGVyIiBiZ2NvbG9yPSIjRkZGRkZGIj48dGQ+5rit5rKzICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPjx0ZD7lkrjpmLMgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+PHRkPjgyLjYxPC90ZD48dGQ+OS43MDwvdGQ+PHRkPi08L3RkPjwvdHI+PHRyIGFsaWduPSJjZW50ZXIiIGJnY29sb3I9IiNGRkZGRkYiPjx0ZD7muK3msrMgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+PHRkPuWNjuWOvyAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+MzUuOTU8L3RkPjx0ZD4yMjwvdGQ+PHRkPi08L3RkPjwvdHI+PHRyIGFsaWduPSJjZW50ZXIiIGJnY29sb3I9IiNGRkZGRkYiPjx0ZD7pu4TmsrMgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+PHRkPua9vOWFsyAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+Mjc8L3RkPjx0ZD4xMzQ8L3RkPjx0ZD4tPC90ZD48L3RyPjx0ciBhbGlnbj0iY2VudGVyIiBiZ2NvbG9yPSIjRkZGRkZGIj48dGQ+6buE5rKzICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPjx0ZD7lj7Llrrbmu6nok4TmsLTph488L3RkPjx0ZD4tPC90ZD48dGQ+LTwvdGQ+PHRkPi08L3RkPjwvdHI+PC90YWJsZT48L3RkPjx0ZCB3aWR0aD0iNTAlIj48dGFibGUgd2lkdGg9IjEwMCUiIGJvcmRlcj0iMCIgY2VsbHBhZGRpbmc9IjIiIGNlbGxzcGFjaW5nPSIxIiBiZ2NvbG9yPSIjRDFEREFBIiBhbGlnbj0iY2VudGVyIiBzdHlsZT0ibWFyZ2luLXRvcDo4cHgiIGNsYXNzPSJtYWluVHh0Ij48VFIgYWxpZ249J2NlbnRlcicgYmdjb2xvcj0nI0U3RTdFNycgaGVpZ2h0PScyMicgY2xhc3M9J3RhYmxlVGl0bGUnID48VEQgd2lkdGg9IjE1JSIgc3R5bGU9ImZvbnQtc2l6ZToxMXB0OyI+5rKz5ZCNPC9URD48VEQgd2lkdGg9IjI1JSIgc3R5bGU9ImZvbnQtc2l6ZToxMXB0OyI+56uZ5ZCNPC9URD48VEQgd2lkdGg9IjIwJSIgc3R5bGU9ImZvbnQtc2l6ZToxMXB0OyI+5rC05L2NPC9URD48VEQgd2lkdGg9IjIwJSIgc3R5bGU9ImZvbnQtc2l6ZToxMXB0OyI+5rWB6YePPC9URD48VEQgd2lkdGg9IjIwJSIgc3R5bGU9ImZvbnQtc2l6ZToxMXB0OyI+5ZCr5rKZ6YePPC9URD48dHIgYWxpZ249ImNlbnRlciIgYmdjb2xvcj0iI0ZGRkZGRiI+PHRkPum7hOaysyAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+5LiJ6Zeo5bOhICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+NzEuOTQ8L3RkPjx0ZD4xOC42PC90ZD48dGQ+LTwvdGQ+PC90cj48dHIgYWxpZ249ImNlbnRlciIgYmdjb2xvcj0iI0ZGRkZGRiI+PHRkPum7hOaysyAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+5bCP5rWq5bqV5LiK6JOE5rC06YePPC90ZD48dGQ+LTwvdGQ+PHRkPi08L3RkPjx0ZD4tPC90ZD48L3RyPjx0ciBhbGlnbj0iY2VudGVyIiBiZ2NvbG9yPSIjRkZGRkZGIj48dGQ+6buE5rKzICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPjx0ZD7lsI/mtarlupUgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPjx0ZD4zMi41NjwvdGQ+PHRkPjYwPC90ZD48dGQ+LTwvdGQ+PC90cj48dHIgYWxpZ249ImNlbnRlciIgYmdjb2xvcj0iI0ZGRkZGRiI+PHRkPuS8iuaysyAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+5Lic5rm+ICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPjx0ZD4tPC90ZD48dGQ+LTwvdGQ+PHRkPi08L3RkPjwvdHI+PHRyIGFsaWduPSJjZW50ZXIiIGJnY29sb3I9IiNGRkZGRkYiPjx0ZD7kvIrmsrMgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+PHRkPumZhua1keWdneS4iuiThOawtOmHjzwvdGQ+PHRkPi08L3RkPjx0ZD4tPC90ZD48dGQ+LTwvdGQ+PC90cj48dHIgYWxpZ249ImNlbnRlciIgYmdjb2xvcj0iI0ZGRkZGRiI+PHRkPuS8iuaysyAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+6ZmG5rWR5Z2d5LiK5Ye65bqTPC90ZD48dGQ+LTwvdGQ+PHRkPi08L3RkPjx0ZD4tPC90ZD48L3RyPjx0ciBhbGlnbj0iY2VudGVyIiBiZ2NvbG9yPSIjRkZGRkZGIj48dGQ+5LyK5rKzICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPjx0ZD7pvpnpl6jplYcgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPjx0ZD40OS4yNTwvdGQ+PHRkPjcuNTA8L3RkPjx0ZD4tPC90ZD48L3RyPjx0ciBhbGlnbj0iY2VudGVyIiBiZ2NvbG9yPSIjRkZGRkZGIj48dGQ+5rSb5rKzICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPjx0ZD7ljaLmsI8gICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+PHRkPi08L3RkPjx0ZD4tPC90ZD48dGQ+LTwvdGQ+PC90cj48dHIgYWxpZ249ImNlbnRlciIgYmdjb2xvcj0iI0ZGRkZGRiI+PHRkPua0m+aysyAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+5pWF5Y6/5rC05bqT6JOE5rC06YePPC90ZD48dGQ+LTwvdGQ+PHRkPi08L3RkPjx0ZD4tPC90ZD48L3RyPjx0ciBhbGlnbj0iY2VudGVyIiBiZ2NvbG9yPSIjRkZGRkZGIj48dGQ+5rSb5rKzICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPjx0ZD7mlYXljr/msLTlupPlh7rlupM8L3RkPjx0ZD4tPC90ZD48dGQ+LTwvdGQ+PHRkPi08L3RkPjwvdHI+PHRyIGFsaWduPSJjZW50ZXIiIGJnY29sb3I9IiNGRkZGRkYiPjx0ZD7mtJvmsrMgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+PHRkPumVv+awtCAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+OTAuNzM8L3RkPjx0ZD4xLjgzPC90ZD48dGQ+LTwvdGQ+PC90cj48dHIgYWxpZ249ImNlbnRlciIgYmdjb2xvcj0iI0ZGRkZGRiI+PHRkPua0m+aysyAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+55m96ams5a+6ICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+MTAuNTg8L3RkPjx0ZD4xMi40PC90ZD48dGQ+LTwvdGQ+PC90cj48dHIgYWxpZ249ImNlbnRlciIgYmdjb2xvcj0iI0ZGRkZGRiI+PHRkPuS8iua0m+aysyAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+PHRkPum7keefs+WFsyAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+PHRkPjYuNjI8L3RkPjx0ZD4yOC41PC90ZD48dGQ+LTwvdGQ+PC90cj48dHIgYWxpZ249ImNlbnRlciIgYmdjb2xvcj0iI0ZGRkZGRiI+PHRkPuS4ueaysyAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+5bGx6Lev5Z2qICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+LTwvdGQ+PHRkPi08L3RkPjx0ZD4tPC90ZD48L3RyPjx0ciBhbGlnbj0iY2VudGVyIiBiZ2NvbG9yPSIjRkZGRkZGIj48dGQ+5rKB5rKzICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPjx0ZD7kupTpvpnlj6MgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPjx0ZD4tPC90ZD48dGQ+LTwvdGQ+PHRkPi08L3RkPjwvdHI+PHRyIGFsaWduPSJjZW50ZXIiIGJnY29sb3I9IiNGRkZGRkYiPjx0ZD7msoHmsrMgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+PHRkPuatpumZnyAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+Mi45MTwvdGQ+PHRkPjQuNzg8L3RkPjx0ZD4tPC90ZD48L3RyPjx0ciBhbGlnbj0iY2VudGVyIiBiZ2NvbG9yPSIjRkZGRkZGIj48dGQ+6buE5rKzICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPjx0ZD7oirHlm63lj6MgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPjx0ZD45MS44NTwvdGQ+PHRkPjI4MjwvdGQ+PHRkPi08L3RkPjwvdHI+PHRyIGFsaWduPSJjZW50ZXIiIGJnY29sb3I9IiNGRkZGRkYiPjx0ZD7pu4TmsrMgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+PHRkPuWkueays+a7qSAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+PHRkPjc1LjU0PC90ZD48dGQ+MTk0PC90ZD48dGQ+LTwvdGQ+PC90cj48dHIgYWxpZ249ImNlbnRlciIgYmdjb2xvcj0iI0ZGRkZGRiI+PHRkPum7hOaysyAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+6auY5p2RICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPjx0ZD42Mi4xMzwvdGQ+PHRkPjIyODwvdGQ+PHRkPi08L3RkPjwvdHI+PHRyIGFsaWduPSJjZW50ZXIiIGJnY29sb3I9IiNGRkZGRkYiPjx0ZD7pu4TmsrMgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+PHRkPuWtmeWPoyAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+NDcuMTg8L3RkPjx0ZD4yODU8L3RkPjx0ZD4tPC90ZD48L3RyPjx0ciBhbGlnbj0iY2VudGVyIiBiZ2NvbG9yPSIjRkZGRkZGIj48dGQ+5aSn5riF5rKzICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+5oi05p2R5Z2dPC90ZD48dGQ+LTwvdGQ+PHRkPi08L3RkPjx0ZD4tPC90ZD48L3RyPjx0ciBhbGlnbj0iY2VudGVyIiBiZ2NvbG9yPSIjRkZGRkZGIj48dGQ+5Lic5bmz5rmWICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+5Lic5bmz5rmW6ICB5rmW6JOE5rC06YePPC90ZD48dGQ+LTwvdGQ+PHRkPi08L3RkPjx0ZD4tPC90ZD48L3RyPjx0ciBhbGlnbj0iY2VudGVyIiBiZ2NvbG9yPSIjRkZGRkZGIj48dGQ+5Lic5bmz5rmWICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+5Ye65rmW6Ze4PC90ZD48dGQ+LTwvdGQ+PHRkPi08L3RkPjx0ZD4tPC90ZD48L3RyPjx0ciBhbGlnbj0iY2VudGVyIiBiZ2NvbG9yPSIjRkZGRkZGIj48dGQ+6buE5rKzICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPjx0ZD7oib7lsbEgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+PHRkPjM5LjI0PC90ZD48dGQ+MjYwPC90ZD48dGQ+LTwvdGQ+PC90cj48dHIgYWxpZ249ImNlbnRlciIgYmdjb2xvcj0iI0ZGRkZGRiI+PHRkPum7hOaysyAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+5rO65Y+jICAgICAgICAgICAgICAgICAgICAgICAgICA8L3RkPjx0ZD4yOC4zNTwvdGQ+PHRkPjIwMDwvdGQ+PHRkPi08L3RkPjwvdHI+PHRyIGFsaWduPSJjZW50ZXIiIGJnY29sb3I9IiNGRkZGRkYiPjx0ZD7pu4TmsrMgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdGQ+PHRkPuWIqea0pSAgICAgICAgICAgICAgICAgICAgICAgICAgPC90ZD48dGQ+MTIuNjY8L3RkPjx0ZD4xODg8L3RkPjx0ZD4tPC90ZD48L3RyPjwvdGFibGU+PC90ZD48L3RyPjwvdGFibGU+ZGT1qLnsaAbfu1D8QChXVf/czoGQyEGvyFb07h6YWwlCTQ=="/>
+    </div>
+
+    <script type="text/javascript">
+        //<![CDATA[
+        var theForm = document.forms['form1'];
+        if (!theForm) {
+            theForm = document.form1;
+        }
+
+        function __doPostBack(eventTarget, eventArgument) {
+            if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+                theForm.__EVENTTARGET.value = eventTarget;
+                theForm.__EVENTARGUMENT.value = eventArgument;
+                theForm.submit();
+            }
+        }
+
+        //]]>
+    </script>
+
+
+    <script src="/WebResource.axd?d=Lg7_eCKntGwztBcTMm4WwCbxOZa5Ei8bD3t_w3ByIgvT_vh6nIcKwh9ZDGc0Jfhtj51sji6nnBmLH_mmP05AJ4CAAapX10iYFDTR0bzgjFc1&amp;t=636638374180000000"
+            type="text/javascript"></script>
+
+
+    <script src="/ScriptResource.axd?d=hbLSgGz8n35Pgf2_U3e2wCIUFMbStgJEDE91C6yUQgag3jg3-DdPtGA9-tEkAF5eV5ykFwK-JtMe6olCg69EhrpnCTZx04Yd_CedYVUDwMYy79sX4cI37-z-m8412ZL51EezIwBqBB8jDNvzExlqD_43gaPo4FpWxXtPKBMvxIqDztm2yljWIunLYik-9OKi0&amp;t=c328a10"
+            type="text/javascript"></script>
+    <script type="text/javascript">
+        //<![CDATA[
+        if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax 客户端框架未能加载。');
+        //]]>
+    </script>
+
+    <script src="/ScriptResource.axd?d=dwZaEBO0KwOdN_o_2KdFR1R3CbXq_UThVtQd6LgNToGrB5nw1_EAlyROnPRAyvbwKaHnCcciZbUpp25TRF36H9KMAzi8AgNcwobiEZJrcfqqrntKO8ZCyOzbS98G8_axtaGxzS1M3jtaIDY-jix7K58FJ4nCIRQjn6ln5RqqbNU0e4Uufo4jb0STh0i7MwxQ0&amp;t=c328a10"
+            type="text/javascript"></script>
+    <div class="aspNetHidden">
+
+        <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="E4DC7756"/>
+        <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION"
+               value="/wEdAAPSrft38D1UtJNw8OaVj2/Y9DkLBAR+UXBBGQ1m5cY+HY5Ggl8DGIT46Qo2GBY6Yh4+1PIVwdY+0EtayJ6ZTyfcAyUJTeEJd3F6YZ5xlrZfsQ=="/>
+    </div>
+    <script type="text/javascript">
+        //<![CDATA[
+        Sys.WebForms.PageRequestManager._initialize('ctl00$ScriptManager1', 'form1', ['fctl00$UpdatePanel1', 'UpdatePanel1'], ['ctl00$ContentLeft', 'ContentLeft'], [], 90, 'ctl00');
+        //]]>
+    </script>
+
+    <div>
+        <table width="100%" min-width="1202px">
+
+
+            <tr>
+                <td>
+                    <table id="bottom" width="100%" border="0">
+                        <tr>
+                            <td valign="top" style="width:120px; ">
+
+
+                                <style type="text/css">
+                                    .style1
+                                    .inner_Style {
+                                        width: 100%;
+                                        height: auto;
+                                    }
+
+                                    .inner_Style input {
+                                        border-style: none;
+                                    }
+
+                                    .textRBL label {
+                                        font-family: 黑体;
+                                        font-size: 10pt;
+                                    }
+                                </style>
+
+                                <script type="text/javascript">
+
+
+                                    /*function getCookie(c_name) {
+                                    if (document.cookie.length > 0) {
+                                    c_start = document.cookie.indexOf(c_name + "=")
+                                    if (c_start != -1) {
+                                    c_start = c_start + c_name.length + 1
+                                    c_end = document.cookie.indexOf(";", c_start)
+                                    if (c_end == -1) c_end = document.cookie.length
+                                    return unescape(document.cookie.substring(c_start, c_end))
+                                    }
+                                    }
+                                    return ""
+                                    }*/
+
+                                    window.onload = function () {
+
+                                        window.document.title = "水情日报";
+                                        document.getElementById('item1').className = 'item';
+                                        document.getElementById('item2').className = 'item';
+                                        //document.getElementById('item3').className = 'item';
+                                        document.getElementById('item4').className = 'item';
+                                        document.getElementById('item5').className = 'itemsel';
+                                        //document.getElementById('item6').className = 'item';
+                                        //document.getElementById('item7').className = 'item';
+                                        document.getElementById('item8').className = 'item';
+                                        document.getElementById('item9').className = 'item';
+
+                                        /*if (!window.name) {
+                                        //alert("第一次开这个窗口！name值" + window.name);
+                                        window.name = 'lijia';
+                                        showHide("items1_2");
+
+                                        } else {
+
+                                        //alert('刷新操作 name值：' + getCookie("ID"));
+                                        if (getCookie("ID") == "ID=1_2") {
+                                        //alert("是我");
+                                        showHide("items1_1");
+
+                                        }
+                                        else {
+                                        //alert(getCookie("ID"));
+                                        showHide("items1_2");
+                                        }
+
+                                        }*/
+
+                                    }
+                                </script>
+                                <table width='160px' height="100%" border='0' cellspacing='0' cellpadding='0'
+                                       background-color:#9ad075;>
+                                    <tr>
+                                        <td style='padding-left:3px;padding-top:8px' valign="top">
+                                            <!-- Item 1 Strat -->
+                                            <dl class='bitem'>
+                                                <dt>
+                                                    <div class='nagTitle'>时间选择</div>
+                                                </dt>
+                                                <dd style='display:block' class='sitem' id='Dd1'>
+
+
+                                                    <script src="./skin/js/Calendar.js" charset="gbk"></script>
+                                                    <script language="javascript" type="text/javascript"
+                                                            src="javascript/My97DatePicker/WdatePicker.js"></script>
+                                                    <table>
+                                                        <tr>
+                                                            <td>
+                                                                <span id="ContentLeft_menuDate1_Label11"
+                                                                      style="font-family:黑体;font-size:10pt;">开始:&nbsp;</span>
+                                                                <div align="center">
+                                                                    <input name="ctl00$ContentLeft$menuDate1$TextBox11"
+                                                                           type="text"
+                                                                           id="ContentLeft_menuDate1_TextBox11"
+                                                                           class="Wdate" readOnly=""
+                                                                           onClick="WdatePicker()" value="2002-01-01"/>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+
+                                                    </table>
+
+                                                    <div style="height:38px;line-height:38px">
+                                                        <input type="submit" name="ctl00$ContentLeft$Button1" value="查询"
+                                                               id="ContentLeft_Button1" class="qButton"/>
+                                                    </div>
+                                                </dd>
+                                            </dl>
+                                            <br/>
+                                            <dl class='bitem'>
+                                                <dt onClick='showHide("items1_2")'>
+                                                    <div class='nagTitle'>单位</div>
+                                                </dt>
+                                                <dd style='display:block' class='sitem' id='items1_2' height="300px">
+                                                    <div class='dwTitle' align="left">&nbsp 水位:米<br/>&nbsp 流量:立方米/秒<br/>&nbsp
+                                                        含沙量:千克/立方米
+                                                    </div>
+                                                </dd>
+
+                                            </dl>
+
+
+                                            <!-- Item 1 End -->
+                                            <!-- Item 2 Strat -->
+                                            <!-- Item 2 End -->
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                            <td valign="top" align="left">
+                                <div id="UpdatePanel1">
+
+
+                                    <table width="100%" height="100%" leftmargin="8" topmargin="8" bgcolor=white
+                                           background='skin/images/allbg.gif'>
+                                        <table width="98%" border="0" cellpadding="2" cellspacing="1" bgcolor="#D1DDAA"
+                                               align="center" style="margin-top:8px">
+
+
+                                            <div id="ContentRight_divfff">
+                                                <table width="98%" border="0" cellpadding="0" cellspacing="1"
+                                                       bgcolor="#D1DDAA" align="center">
+                                                    <tr>
+                                                        <td height="40" background="skin/images/newlinebg3.gif">
+                                                            <table width="98%" border="0" cellspacing="0"
+                                                                   cellpadding="0">
+                                                                <tr>
+                                                                    <td align="center">
+                                                                        <div class='firstTitle'>水情日报</div>
+                                                                        <div class='secTitle'>2002-01-01</div>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <table width="98%" border="0" cellpadding="2" cellspacing="1"
+                                                       bgcolor="#D1DDAA" align="center" style="margin-top:8px"
+                                                       class="mainTxt">
+                                                    <tr>
+                                                        <td width="50%">
+                                                            <table width="100%" border="0" cellpadding="2"
+                                                                   cellspacing="1" bgcolor="#D1DDAA" align="center"
+                                                                   style="margin-top:8px" class="mainTxt">
+                                                                <TR align='center' bgcolor='#E7E7E7' height='22'
+                                                                    class='tableTitle'>
+                                                                    <TD width="15%" style="font-size:11pt;">河名</TD>
+                                                                    <TD width="25%" style="font-size:11pt;">站名</TD>
+                                                                    <TD width="20%" style="font-size:11pt;">水位</TD>
+                                                                    <TD width="20%" style="font-size:11pt;">流量</TD>
+                                                                    <TD width="20%" style="font-size:11pt;">含沙量</TD>
+                                                                </TR>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>唐乃亥</td>
+                                                                    <td>13.65</td>
+                                                                    <td>116</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>龙羊峡入库</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>龙羊峡蓄水量</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>龙羊峡出库</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>刘家峡入库</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>刘家峡蓄水量</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>刘家峡出库</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>兰州</td>
+                                                                    <td>11.4</td>
+                                                                    <td>333</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>下河沿</td>
+                                                                    <td>30.39</td>
+                                                                    <td>526</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>石嘴山</td>
+                                                                    <td>87.46</td>
+                                                                    <td>410</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>巴彦高勒</td>
+                                                                    <td>52.72</td>
+                                                                    <td>310</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>三湖河口</td>
+                                                                    <td>19.6</td>
+                                                                    <td>260</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>包头</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>头道拐</td>
+                                                                    <td>86.77</td>
+                                                                    <td>185</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>万家寨蓄水量</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>万家寨上出库</td>
+                                                                    <td>-</td>
+                                                                    <td>18</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>万家寨下</td>
+                                                                    <td>94.48</td>
+                                                                    <td>18</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>府谷</td>
+                                                                    <td>8.55</td>
+                                                                    <td>98</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>吴堡</td>
+                                                                    <td>37.28</td>
+                                                                    <td>130</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>龙门</td>
+                                                                    <td>82.82</td>
+                                                                    <td>210</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>汾河</td>
+                                                                    <td>河津</td>
+                                                                    <td>71.57</td>
+                                                                    <td>5.45</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>北洛河</td>
+                                                                    <td>状头</td>
+                                                                    <td>61.35</td>
+                                                                    <td>2.10</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>泾河</td>
+                                                                    <td>张家山</td>
+                                                                    <td>420.1</td>
+                                                                    <td>1.64</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>渭河</td>
+                                                                    <td>咸阳</td>
+                                                                    <td>82.61</td>
+                                                                    <td>9.70</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>渭河</td>
+                                                                    <td>华县</td>
+                                                                    <td>35.95</td>
+                                                                    <td>22</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>潼关</td>
+                                                                    <td>27</td>
+                                                                    <td>134</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>史家滩蓄水量</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                        <td width="50%">
+                                                            <table width="100%" border="0" cellpadding="2"
+                                                                   cellspacing="1" bgcolor="#D1DDAA" align="center"
+                                                                   style="margin-top:8px" class="mainTxt">
+                                                                <TR align='center' bgcolor='#E7E7E7' height='22'
+                                                                    class='tableTitle'>
+                                                                    <TD width="15%" style="font-size:11pt;">河名</TD>
+                                                                    <TD width="25%" style="font-size:11pt;">站名</TD>
+                                                                    <TD width="20%" style="font-size:11pt;">水位</TD>
+                                                                    <TD width="20%" style="font-size:11pt;">流量</TD>
+                                                                    <TD width="20%" style="font-size:11pt;">含沙量</TD>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>三门峡</td>
+                                                                    <td>71.94</td>
+                                                                    <td>18.6</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>小浪底上蓄水量</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>小浪底</td>
+                                                                    <td>32.56</td>
+                                                                    <td>60</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>伊河</td>
+                                                                    <td>东湾</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>伊河</td>
+                                                                    <td>陆浑坝上蓄水量</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>伊河</td>
+                                                                    <td>陆浑坝上出库</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>伊河</td>
+                                                                    <td>龙门镇</td>
+                                                                    <td>49.25</td>
+                                                                    <td>7.50</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>洛河</td>
+                                                                    <td>卢氏</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>洛河</td>
+                                                                    <td>故县水库蓄水量</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>洛河</td>
+                                                                    <td>故县水库出库</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>洛河</td>
+                                                                    <td>长水</td>
+                                                                    <td>90.73</td>
+                                                                    <td>1.83</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>洛河</td>
+                                                                    <td>白马寺</td>
+                                                                    <td>10.58</td>
+                                                                    <td>12.4</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>伊洛河</td>
+                                                                    <td>黑石关</td>
+                                                                    <td>6.62</td>
+                                                                    <td>28.5</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>丹河</td>
+                                                                    <td>山路坪</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>沁河</td>
+                                                                    <td>五龙口</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>沁河</td>
+                                                                    <td>武陟</td>
+                                                                    <td>2.91</td>
+                                                                    <td>4.78</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>花园口</td>
+                                                                    <td>91.85</td>
+                                                                    <td>282</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>夹河滩</td>
+                                                                    <td>75.54</td>
+                                                                    <td>194</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>高村</td>
+                                                                    <td>62.13</td>
+                                                                    <td>228</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>孙口</td>
+                                                                    <td>47.18</td>
+                                                                    <td>285</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>大清河</td>
+                                                                    <td>戴村坝</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>东平湖</td>
+                                                                    <td>东平湖老湖蓄水量</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>东平湖</td>
+                                                                    <td>出湖闸</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>艾山</td>
+                                                                    <td>39.24</td>
+                                                                    <td>260</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>泺口</td>
+                                                                    <td>28.35</td>
+                                                                    <td>200</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                                <tr align="center" bgcolor="#FFFFFF">
+                                                                    <td>黄河</td>
+                                                                    <td>利津</td>
+                                                                    <td>12.66</td>
+                                                                    <td>188</td>
+                                                                    <td>-</td>
+                                                                </tr>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+
+
+                                        </table>
+                                    </table>
+
+
+                                </div>
+
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+
+        </table>
+    </div>
+</form>
+</body>
+</html>

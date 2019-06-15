@@ -3,7 +3,6 @@
 author=Hui_T
 """
 import requests
-
 url = "https://www.baidu.com/s"
 # 请求头,带参数  百度搜索url
 

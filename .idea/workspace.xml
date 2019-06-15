@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6dbf0aa0-f92e-4672-a322-79b4af495ed0" name="Default Changelist" comment="" />
+    <list default="true" id="6dbf0aa0-f92e-4672-a322-79b4af495ed0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 Request模块的使用/04 线程的使用.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 Request模块的使用/05 报错日期.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 Request模块的使用/log1.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 Request模块的使用/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 Request模块的使用/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 Request模块的使用/test3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 Request模块的使用/test4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 Request模块的使用/x.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01 Request模块的使用/多线程爬取表情包.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/爬取黄河/02 爬取黄河水情.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Request模块的使用/01 百度搜索.py" beforeDir="false" afterPath="$PROJECT_DIR$/01 Request模块的使用/01 百度搜索.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Request模块的使用/02 爬取黄河.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Request模块的使用/03 table转换成Excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/01 Request模块的使用/03 table转换成Excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Request模块的使用/baidu.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Request模块的使用/baidu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Request模块的使用/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Request模块的使用/table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Request模块的使用/table.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/01 Request模块的使用/table.xlsx" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,218 +29,85 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/python$02_.coverage" NAME="02 爬取黄河 Coverage Results" MODIFIED="1560354566885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01 Request模块的使用" />
-    <SUITE FILE_PATH="coverage/python$03_tableExcel.coverage" NAME="03 table转换成Excel Coverage Results" MODIFIED="1560352897458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01 Request模块的使用" />
-    <SUITE FILE_PATH="coverage/python$01_.coverage" NAME="01 百度搜索 Coverage Results" MODIFIED="1560350777771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01 Request模块的使用" />
+    <SUITE FILE_PATH="coverage/python$04_.coverage" NAME="04 线程的使用 Coverage Results" MODIFIED="1560411880308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01 Request模块的使用" />
+    <SUITE FILE_PATH="coverage/python$test4.coverage" NAME="test4 Coverage Results" MODIFIED="1560588343268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01 Request模块的使用" />
+    <SUITE FILE_PATH="coverage/python$test.coverage" NAME="test Coverage Results" MODIFIED="1560441253226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01 Request模块的使用" />
+    <SUITE FILE_PATH="coverage/python$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1560522488677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01 Request模块的使用" />
+    <SUITE FILE_PATH="coverage/python$05_.coverage" NAME="05 报错日期 Coverage Results" MODIFIED="1560574172433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01 Request模块的使用" />
+    <SUITE FILE_PATH="coverage/python$02_.coverage" NAME="02 爬取黄河水情 Coverage Results" MODIFIED="1560589724941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬取黄河" />
+    <SUITE FILE_PATH="coverage/python$03_tableExcel.coverage" NAME="03 table转换成Excel Coverage Results" MODIFIED="1560436085775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01 Request模块的使用" />
+    <SUITE FILE_PATH="coverage/python$xx.coverage" NAME="xx Coverage Results" MODIFIED="1560518078886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01 Request模块的使用" />
+    <SUITE FILE_PATH="coverage/python$01_.coverage" NAME="01 百度搜索 Coverage Results" MODIFIED="1560422901647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01 Request模块的使用" />
+    <SUITE FILE_PATH="coverage/python$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1560509487771" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$test2__1_.coverage" NAME="test2 (1) Coverage Results" MODIFIED="1560512549970" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/01 Request模块的使用" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1472012891">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="5" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.0" value="8" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="11" />
-          <entry key="py" value="10" />
-          <entry key="pyi" value="1" />
+          <entry key="csv" value="25" />
+          <entry key="html" value="52" />
+          <entry key="null" value="1" />
+          <entry key="py" value="58" />
+          <entry key="pyi" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="11" />
-          <entry key="Python" value="10" />
-          <entry key="PythonStub" value="1" />
+          <entry key="HTML" value="52" />
+          <entry key="PLAIN_TEXT" value="26" />
+          <entry key="Python" value="58" />
+          <entry key="PythonStub" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="108" />
-          <entry key="py" value="741" />
+          <entry key="dummy" value="17" />
+          <entry key="html" value="140" />
+          <entry key="py" value="6397" />
           <entry key="txt" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="108" />
-          <entry key="PLAIN_TEXT" value="22" />
-          <entry key="Python" value="741" />
+          <entry key="HTML" value="140" />
+          <entry key="PLAIN_TEXT" value="39" />
+          <entry key="Python" value="6397" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01 Request模块的使用/01 百度搜索.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/爬取黄河/02 爬取黄河水情.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01 Request模块的使用/baidu.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-112649">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="224">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
-                <element signature="e#53453#53600#2" expanded="true" />
-                <element signature="e#68546#68565#1" expanded="true" />
-                <element signature="e#73017#73304#1" expanded="true" />
-                <element signature="e#75441#75460#1" expanded="true" />
-                <element signature="e#76024#76315#2" expanded="true" />
-                <element signature="e#120973#120992#1" expanded="true" />
-                <element signature="e#125444#125731#1" expanded="true" />
-                <element signature="e#127868#127887#1" expanded="true" />
-                <element signature="e#128451#128742#2" expanded="true" />
-                <element signature="n#style#0;n#a#8;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#tbody#1;n#table#0;n#div#0;n#div#0;n#div#1;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#tbody#2;n#table#0;n#div#0;n#div#0;n#div#1;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#tbody#3;n#table#0;n#div#0;n#div#0;n#div#1;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#tbody#4;n#table#0;n#div#0;n#div#0;n#div#1;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#font#4;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#263108#263114#1" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#264404#264410#0" expanded="true" />
-                <element signature="e#264700#264706#1" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#font#1;n#div#2;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#font#2;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#276114#276120#1" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#277410#277416#0" expanded="true" />
-                <element signature="e#277652#277658#1" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#font#1;n#div#2;n#div#1;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#1;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#1;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#font#2;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#288771#288777#1" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#2;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#290067#290073#0" expanded="true" />
-                <element signature="e#290357#290363#1" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#font#1;n#div#2;n#div#2;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#2;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#2;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#font#0;n#div#0;n#div#1;n#div#3;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#294592#294598#1" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#3;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#295888#295894#0" expanded="true" />
-                <element signature="e#296138#296144#1" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#font#1;n#div#2;n#div#3;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#3;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#3;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#font#3;n#div#0;n#div#1;n#div#4;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#300734#300740#1" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#div#4;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#302078#302084#0" expanded="true" />
-                <element signature="e#302299#302305#1" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#font#1;n#div#2;n#div#4;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#4;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#1;n#div#4;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#304182#304188#0" expanded="true" />
-                <element signature="e#304614#304618#0" expanded="true" />
-                <element signature="e#304618#304622#0" expanded="true" />
-                <element signature="e#304622#304626#0" expanded="true" />
-                <element signature="e#304633#304639#0" expanded="true" />
-                <element signature="e#304647#304652#0" expanded="true" />
-                <element signature="e#304670#304676#0" expanded="true" />
-                <element signature="e#304686#304691#0" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#2;n#div#5;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#304933#304939#0" expanded="true" />
-                <element signature="e#305294#305300#0" expanded="true" />
-                <element signature="e#305301#305307#0" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#6;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#309197#309201#0" expanded="true" />
-                <element signature="e#309201#309205#0" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#1;n#div#7;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#310728#310734#0" expanded="true" />
-                <element signature="e#311108#311114#0" expanded="true" />
-                <element signature="e#311115#311121#0" expanded="true" />
-                <element signature="e#312323#312329#0" expanded="true" />
-                <element signature="e#312330#312336#0" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#1;n#div#8;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#313287#313293#0" expanded="true" />
-                <element signature="e#313294#313300#0" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#1;n#div#9;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#314868#314874#0" expanded="true" />
-                <element signature="e#315237#315243#0" expanded="true" />
-                <element signature="e#315244#315250#0" expanded="true" />
-                <element signature="e#315742#315748#0" expanded="true" />
-                <element signature="e#315749#315755#0" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#10;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#10;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#10;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#317653#317659#0" expanded="true" />
-                <element signature="e#318077#318083#0" expanded="true" />
-                <element signature="e#318084#318090#0" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#1;n#div#11;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#319711#319717#0" expanded="true" />
-                <element signature="e#320089#320095#0" expanded="true" />
-                <element signature="e#320096#320102#0" expanded="true" />
-                <element signature="e#321388#321393#0" expanded="true" />
-                <element signature="e#321429#321435#0" expanded="true" />
-                <element signature="e#321439#321444#0" expanded="true" />
-                <element signature="e#321449#321455#0" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#1;n#div#12;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#321701#321707#0" expanded="true" />
-                <element signature="e#322068#322074#0" expanded="true" />
-                <element signature="e#322075#322081#0" expanded="true" />
-                <element signature="e#322525#322531#0" expanded="true" />
-                <element signature="e#322532#322538#0" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#1;n#div#13;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#323755#323761#0" expanded="true" />
-                <element signature="e#324108#324114#0" expanded="true" />
-                <element signature="e#324115#324121#0" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#div#1;n#div#14;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#326263#326269#0" expanded="true" />
-                <element signature="e#326270#326276#0" expanded="true" />
-                <element signature="n#style#0;n#div#3;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#332322#332326#0" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1560588413713" expanded="true" signature="1257:1259" ph="..." />
+                <marker date="1560588413713" expanded="true" signature="14899:14900" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01 Request模块的使用/table.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01 Request模块的使用/02 爬取黄河.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01 Request模块的使用/水清日报2019-6-11.html">
+        <entry file="file://$PROJECT_DIR$/01 Request模块的使用/多线程爬取表情包.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="140">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01 Request模块的使用/03 table转换成Excel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+              <folding>
+                <element signature="e#22#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -238,19 +125,38 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>post</find>
+      <find>333</find>
+      <find>E</find>
+      <find>黄河</find>
+      <find>利</find>
+      <find>id=&quot;UpdatePanel1&quot;</find>
+      <find>id=&quot;ContentRight_divfff&quot;</find>
+      <find>Huanghe</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/01 Request模块的使用/test.html" />
         <option value="$PROJECT_DIR$/01 Request模块的使用/01 百度搜索.py" />
-        <option value="$PROJECT_DIR$/01 Request模块的使用/03 table转换成Excel.py" />
         <option value="$PROJECT_DIR$/01 Request模块的使用/table.html" />
+        <option value="$PROJECT_DIR$/01 Request模块的使用/03 table转换成Excel.py" />
+        <option value="$PROJECT_DIR$/01 Request模块的使用/eq.html" />
+        <option value="$PROJECT_DIR$/01 Request模块的使用/test.py" />
+        <option value="$PROJECT_DIR$/01 Request模块的使用/04 线程的使用.py" />
+        <option value="$PROJECT_DIR$/01 Request模块的使用/2002-01-01.html" />
+        <option value="$PROJECT_DIR$/01 Request模块的使用/x.html" />
+        <option value="$PROJECT_DIR$/test2.py" />
+        <option value="$PROJECT_DIR$/01 Request模块的使用/test2.py" />
+        <option value="$PROJECT_DIR$/01 Request模块的使用/xx.py" />
         <option value="$PROJECT_DIR$/01 Request模块的使用/02 爬取黄河.py" />
+        <option value="$PROJECT_DIR$/01 Request模块的使用/05 报错日期.py" />
+        <option value="$PROJECT_DIR$/01 Request模块的使用/test3.py" />
+        <option value="$PROJECT_DIR$/01 Request模块的使用/test4.py" />
+        <option value="$PROJECT_DIR$/01 Request模块的使用/02 爬取黄河水情.py" />
       </list>
     </option>
   </component>
@@ -260,11 +166,28 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="157" />
-    <option name="y" value="142" />
-    <option name="width" value="1725" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="440" />
+    <option name="y" value="30" />
+    <option name="width" value="1290" />
+    <option name="height" value="975" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Internationalization</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>LossyEncoding</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -283,7 +206,7 @@
             <path>
               <item name="python爬虫" type="b2602c69:ProjectViewProjectNode" />
               <item name="python爬虫" type="462c0819:PsiDirectoryNode" />
-              <item name="01 Request模块的使用" type="462c0819:PsiDirectoryNode" />
+              <item name="爬取黄河" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -294,10 +217,16 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/01 Request模块的使用/data" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\python_hui\python爬虫\爬取黄河" />
+      <recent name="G:\python_hui\python爬虫\01 Request模块的使用" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -311,35 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.水清日报2019-6-11.html">
-    <configuration name="水清日报2019-6-11.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python爬虫/01 Request模块的使用/水清日报2019-6-11.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="test.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/python爬虫/01 Request模块的使用/test.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="01 百度搜索" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python爬虫" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01 Request模块的使用" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01 Request模块的使用/01 百度搜索.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.02 爬取黄河">
     <configuration name="02 爬取黄河" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python爬虫" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -353,7 +254,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01 Request模块的使用/02 爬取黄河.py" />
+      <option name="SCRIPT_NAME" value="G:\python_hui\python爬虫\爬取黄河\02 爬取黄河水情.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -362,7 +263,29 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="03 table转换成Excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="02 爬取黄河水情" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python爬虫" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/爬取黄河" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬取黄河/02 爬取黄河水情.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="02 爬取黄河水情" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python爬虫" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -375,7 +298,73 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01 Request模块的使用/03 table转换成Excel.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01 Request模块的使用/02 爬取黄河水情.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="05 报错日期" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python爬虫" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01 Request模块的使用" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01 Request模块的使用/05 报错日期.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python爬虫" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01 Request模块的使用" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01 Request模块的使用/test3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test4" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python爬虫" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/01 Request模块的使用" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01 Request模块的使用/test4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -385,19 +374,17 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.01 百度搜索" />
-      <item itemvalue="JavaScript Debug.test.html" />
       <item itemvalue="Python.02 爬取黄河" />
-      <item itemvalue="Python.03 table转换成Excel" />
-      <item itemvalue="JavaScript Debug.水清日报2019-6-11.html" />
+      <item itemvalue="Python.test3" />
+      <item itemvalue="Python.05 报错日期" />
+      <item itemvalue="Python.test4" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.水清日报2019-6-11.html" />
+        <item itemvalue="Python.test4" />
+        <item itemvalue="Python.05 报错日期" />
         <item itemvalue="Python.02 爬取黄河" />
-        <item itemvalue="Python.03 table转换成Excel" />
-        <item itemvalue="JavaScript Debug.test.html" />
-        <item itemvalue="Python.01 百度搜索" />
+        <item itemvalue="Python.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -443,23 +430,31 @@
     <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="126" y="114" width="1380" height="864" extended-state="0" />
-    <editor active="true" />
+    <frame x="353" y="25" width="1032" height="780" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16187595" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22073922" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47033897" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.398827" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32991204" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4054487" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.38269794" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32857144" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49848714" weight="0.32796487" />
-      <window_info anchor="bottom" id="Pylint" order="9" weight="0.3290441" />
+      <window_info anchor="bottom" id="Pylint" order="9" weight="0.32857144" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5015129" side_tool="true" weight="0.32844576" />
@@ -499,20 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/requests/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112">
-          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01 Request模块的使用/01 百度搜索.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/idlelib/help.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="213">
@@ -520,185 +501,204 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/01 Request模块的使用/test.html" />
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1229051315/time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="202" column="4" selection-start-line="202" selection-start-column="4" selection-end-line="202" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1229051315/lxml/etree/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="206" column="4" selection-start-line="206" selection-start-column="4" selection-end-line="206" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/builtins.pyi">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="897" column="85" selection-start-line="897" selection-start-column="85" selection-end-line="897" selection-end-column="85" />
+        <state relative-caret-position="-1971">
+          <caret line="897" column="82" selection-start-line="897" selection-start-column="82" selection-end-line="897" selection-end-column="82" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01 Request模块的使用/baidu.html">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/requests/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112649">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#53453#53600#2" expanded="true" />
-            <element signature="e#68546#68565#1" expanded="true" />
-            <element signature="e#73017#73304#1" expanded="true" />
-            <element signature="e#75441#75460#1" expanded="true" />
-            <element signature="e#76024#76315#2" expanded="true" />
-            <element signature="e#120973#120992#1" expanded="true" />
-            <element signature="e#125444#125731#1" expanded="true" />
-            <element signature="e#127868#127887#1" expanded="true" />
-            <element signature="e#128451#128742#2" expanded="true" />
-            <element signature="n#style#0;n#a#8;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tbody#1;n#table#0;n#div#0;n#div#0;n#div#1;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tbody#2;n#table#0;n#div#0;n#div#0;n#div#1;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tbody#3;n#table#0;n#div#0;n#div#0;n#div#1;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tbody#4;n#table#0;n#div#0;n#div#0;n#div#1;n#div#1;n#td#0;n#tr#0;n#table#0;n#div#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#font#4;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#263108#263114#1" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#264404#264410#0" expanded="true" />
-            <element signature="e#264700#264706#1" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#font#1;n#div#2;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#0;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#font#2;n#div#0;n#div#1;n#div#0;n#div#1;n#div#1;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#276114#276120#1" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#1;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#277410#277416#0" expanded="true" />
-            <element signature="e#277652#277658#1" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#font#1;n#div#2;n#div#1;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#1;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#font#2;n#div#0;n#div#1;n#div#0;n#div#1;n#div#2;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#288771#288777#1" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#2;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#290067#290073#0" expanded="true" />
-            <element signature="e#290357#290363#1" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#font#1;n#div#2;n#div#2;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#2;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#font#0;n#div#0;n#div#1;n#div#3;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#294592#294598#1" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#3;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#295888#295894#0" expanded="true" />
-            <element signature="e#296138#296144#1" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#font#1;n#div#2;n#div#3;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#3;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#3;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#font#3;n#div#0;n#div#1;n#div#4;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#300734#300740#1" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#div#4;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#302078#302084#0" expanded="true" />
-            <element signature="e#302299#302305#1" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#font#1;n#div#2;n#div#4;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#4;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#4;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#304182#304188#0" expanded="true" />
-            <element signature="e#304614#304618#0" expanded="true" />
-            <element signature="e#304618#304622#0" expanded="true" />
-            <element signature="e#304622#304626#0" expanded="true" />
-            <element signature="e#304633#304639#0" expanded="true" />
-            <element signature="e#304647#304652#0" expanded="true" />
-            <element signature="e#304670#304676#0" expanded="true" />
-            <element signature="e#304686#304691#0" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#div#5;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#304933#304939#0" expanded="true" />
-            <element signature="e#305294#305300#0" expanded="true" />
-            <element signature="e#305301#305307#0" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#6;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#309197#309201#0" expanded="true" />
-            <element signature="e#309201#309205#0" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#7;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#310728#310734#0" expanded="true" />
-            <element signature="e#311108#311114#0" expanded="true" />
-            <element signature="e#311115#311121#0" expanded="true" />
-            <element signature="e#312323#312329#0" expanded="true" />
-            <element signature="e#312330#312336#0" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#8;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#313287#313293#0" expanded="true" />
-            <element signature="e#313294#313300#0" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#9;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#314868#314874#0" expanded="true" />
-            <element signature="e#315237#315243#0" expanded="true" />
-            <element signature="e#315244#315250#0" expanded="true" />
-            <element signature="e#315742#315748#0" expanded="true" />
-            <element signature="e#315749#315755#0" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#10;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#10;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#10;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#317653#317659#0" expanded="true" />
-            <element signature="e#318077#318083#0" expanded="true" />
-            <element signature="e#318084#318090#0" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#11;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#319711#319717#0" expanded="true" />
-            <element signature="e#320089#320095#0" expanded="true" />
-            <element signature="e#320096#320102#0" expanded="true" />
-            <element signature="e#321388#321393#0" expanded="true" />
-            <element signature="e#321429#321435#0" expanded="true" />
-            <element signature="e#321439#321444#0" expanded="true" />
-            <element signature="e#321449#321455#0" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#12;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#321701#321707#0" expanded="true" />
-            <element signature="e#322068#322074#0" expanded="true" />
-            <element signature="e#322075#322081#0" expanded="true" />
-            <element signature="e#322525#322531#0" expanded="true" />
-            <element signature="e#322532#322538#0" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#13;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#323755#323761#0" expanded="true" />
-            <element signature="e#324108#324114#0" expanded="true" />
-            <element signature="e#324115#324121#0" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#14;n#div#2;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#326263#326269#0" expanded="true" />
-            <element signature="e#326270#326276#0" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#332322#332326#0" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#1;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="28">
+          <caret line="103" column="4" selection-start-line="103" selection-start-column="4" selection-end-line="103" selection-end-column="4" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/01 Request模块的使用/eq.html" />
     <entry file="file://$PROJECT_DIR$/01 Request模块的使用/table.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="700">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01 Request模块的使用/test.html">
+    <entry file="file://$PROJECT_DIR$/01 Request模块的使用/2002-01-02.html" />
+    <entry file="file://$PROJECT_DIR$/01 Request模块的使用/2002-01-01.html" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/openpyxl/reader/excel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#1;n#div#0;n#table#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#td#0;n#tr#0;n#table#1;n#div#0;n#table#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#TD#0;n#TR#0;n#table#0;n#td#0;n#tr#0;n#table#1;n#div#0;n#table#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#TD#1;n#TR#0;n#table#0;n#td#0;n#tr#0;n#table#1;n#div#0;n#table#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#TD#2;n#TR#0;n#table#0;n#td#0;n#tr#0;n#table#1;n#div#0;n#table#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#TD#3;n#TR#0;n#table#0;n#td#0;n#tr#0;n#table#1;n#div#0;n#table#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#TD#4;n#TR#0;n#table#0;n#td#0;n#tr#0;n#table#1;n#div#0;n#table#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#table#0;n#td#1;n#tr#0;n#table#1;n#div#0;n#table#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#TD#0;n#TR#0;n#table#0;n#td#1;n#tr#0;n#table#1;n#div#0;n#table#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#TD#1;n#TR#0;n#table#0;n#td#1;n#tr#0;n#table#1;n#div#0;n#table#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#TD#2;n#TR#0;n#table#0;n#td#1;n#tr#0;n#table#1;n#div#0;n#table#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#TD#3;n#TR#0;n#table#0;n#td#1;n#tr#0;n#table#1;n#div#0;n#table#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#TD#4;n#TR#0;n#table#0;n#td#1;n#tr#0;n#table#1;n#div#0;n#table#0;n#table#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="-413">
+          <caret line="279" column="4" selection-start-line="279" selection-start-column="4" selection-end-line="279" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01 Request模块的使用/03 table转换成Excel.py">
+    <entry file="file://$PROJECT_DIR$/01 Request模块的使用/data/2002-01-03.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        <state relative-caret-position="28">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01 Request模块的使用/02 爬取黄河.py">
+    <entry file="file://$PROJECT_DIR$/01 Request模块的使用/data/2002-01-02.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 Request模块的使用/data/2002-01-01.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        <state relative-caret-position="-2262" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/1229051315/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="3656" column="8" selection-start-line="3656" selection-start-column="8" selection-end-line="3656" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 Request模块的使用/test2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 Request模块的使用/2002-01-01.csv" />
+    <entry file="file://$PROJECT_DIR$/01 Request模块的使用/2002-01-02.csv" />
+    <entry file="file://$PROJECT_DIR$/01 Request模块的使用/baidu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 Request模块的使用/null" />
+    <entry file="file://$PROJECT_DIR$/01 Request模块的使用/x.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="457" column="69" selection-start-line="457" selection-start-column="69" selection-end-line="457" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 Request模块的使用/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/01 Request模块的使用/水清日报2019-6-11.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3164">
+          <caret line="738" column="6" selection-start-line="738" selection-start-column="6" selection-end-line="738" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 Request模块的使用/log.csv" />
+    <entry file="file://$PROJECT_DIR$/01 Request模块的使用/03 table转换成Excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="e#34#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 Request模块的使用/01 百度搜索.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-525">
+          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 Request模块的使用/05 报错日期.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 Request模块的使用/log1.csv">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 Request模块的使用/test3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="24" column="4" lean-forward="true" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/datetime.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 Request模块的使用/test4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 Request模块的使用/04 线程的使用.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 Request模块的使用/多线程爬取表情包.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/爬取黄河/02 爬取黄河水情.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <marker date="1560588413713" expanded="true" signature="1257:1259" ph="..." />
+            <marker date="1560588413713" expanded="true" signature="14899:14900" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
